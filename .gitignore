@@ -173,6 +173,26 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+### VisualStudioCode ###
+.vscode/*
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# Support for Project snippet scope
+.vscode/*.code-snippets
+
+# Ignore code-workspaces
+*.code-workspace
+
 # yarn v2
 .yarn/cache
 .yarn/unplugged
