@@ -5,9 +5,12 @@
   "main": "src/index.ts",
   "scripts": {
     "prepare": "husky install",
-    "format:fix": "prettier --write --cache 'src/**/*.ts'",
-    "format:check": "prettier --check 'src/**/*.ts'",
-    "test": "echo \"Running test...\" exit 0"
+    "format:fix": "prettier --write --cache .",
+    "format:check": "prettier --check .",
+    "test": "echo \"Running test...\" exit 0",
+    "tsc:init": "npx tsc --init",
+    "tsc:watch": "npx tsc --watch",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "Juan Sebastián Agudelo @juansacdev <juansac.me@gmail.com>",
@@ -19,6 +22,6 @@
     "typescript": "4.7.4"
   },
   "lint-staged": {
-    "src/**/*.ts": "npm run format:fix"
+    "*.ts": "npm run format:fix"
   }
 }
