@@ -1,12 +1,13 @@
 ;(async () => {
-  const myCart = [];
-  const products = [];
-  const limit = 2;
+  const myCart = []
+  const products = []
+  const limit = 2
 
-async function getProducts(){
+  async function getProducts() {
     const rta = await fetch('http://api.escuelajs.co/api/v1/products', {
       method: 'GET'
     })
+
     const data = await rta.json()
     products.concat(data)
   }
