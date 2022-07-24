@@ -4,3 +4,9 @@ coverage
 .vscode
 .git
 build
+package*.json
+tsconfig.json
+.prettierrc
+.env
+.yml
+Dockerfile
