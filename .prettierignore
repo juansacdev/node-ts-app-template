@@ -8,5 +8,6 @@ package*.json
 tsconfig.json
 .prettierrc
 .env
-.yml
+*.yml
+*.tf
 Dockerfile

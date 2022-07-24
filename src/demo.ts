@@ -8,6 +8,8 @@
       method: 'GET'
     })
 
+    console.log('aloooo')
+
     const data = await rta.json()
     products.concat(data)
   }

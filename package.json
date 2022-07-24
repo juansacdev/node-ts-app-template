@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "prepare": "husky install",
-    "format:fix": "prettier --write --cache .",
+    "format:fix": "prettier --write --cache 'src/**/*.ts'",
     "format:check": "prettier --check .",
     "test": "echo \"Running test...\" exit 0",
     "tsc:init": "npx tsc --init",
