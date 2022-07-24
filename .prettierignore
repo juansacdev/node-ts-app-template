@@ -7,7 +7,3 @@ build
 package*.json
 tsconfig.json
 .prettierrc
-.env
-*.yml
-*.tf
-Dockerfile
