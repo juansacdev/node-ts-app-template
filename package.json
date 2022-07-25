@@ -1,12 +1,15 @@
 {
-  "name": "typescript-project",
+  "name": "ts-eslint-prettier-husky",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.ts",
+  "engines": {
+    "node": "18.4.0"
+  },
   "scripts": {
     "prepare": "husky install",
     "lint:check": "eslint src/**/*.ts",
-    "lint:fix": "eslint src/**/*.ts --fix",
+    "lint:fix": "eslint src/**/*.ts --fix --color",
     "format:fix": "prettier --write --cache 'src/**/*.ts'",
     "format:check": "prettier --check 'src/**/*.ts'",
     "test": "echo \"Running test...\" exit 0",
