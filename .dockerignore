@@ -1,9 +1,11 @@
 node_modules/
 dist/
 coverage/
+.nyc_output/
 *.test*
 *.spec*
-*test*/
+test/
+.nycrc
 .nvmrc
 .vscode/
 .git/
