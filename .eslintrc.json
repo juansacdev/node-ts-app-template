@@ -27,6 +27,8 @@
     "no-mixed-spaces-and-tabs": "error",
     "no-multi-spaces": "error",
     "no-console": "error",
+    "no-unused-vars": "error",
+    "@typescript-eslint/no-unused-vars": "off",
     "indent": [
       "error",
       2
